@@ -1,0 +1,103 @@
+/* Adding a note about font import */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+/* Box sizing for all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Styling the body */
+body {
+    background-color: #f5f5f5; /* Light gray background */
+    color: #444; /* Dark gray text color */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif; /* Font family */
+    margin: 0;
+    min-height: 100vh; /* Minimum height of the viewport */
+}
+
+/* Styling for the main heading */
+h1 {
+    color: rgb(179, 131, 226); /* Purple heading color */
+    font-size: 3rem;
+    text-align: center;
+    opacity: 0.9;
+}
+
+/* Styling for the form */
+form {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+    max-width: 100%;
+    width: 400px; /* Fixed width for the form */
+}
+
+/* Styling for input elements */
+.input {
+    border: none;
+    color: #444;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    display: block;
+    width: 100%;
+}
+
+/* Styling for input placeholders */
+.input::placeholder {
+    color: #d5d5d5; /* Light gray placeholder text */
+}
+
+/* Styling for the list of todos */
+.todos {
+    background-color: #fff; /* White background for todos */
+    padding: 0;
+    margin: 0;
+    list-style-type: none; /* Removing list styles */
+}
+
+/* Styling for individual todo items */
+.todos li {
+    border-top: 1px solid #e5e5e5; /* Gray border between todo items */
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+}
+
+/* Styling for completed todo items */
+.todos li.completed {
+    color: #b6b6b6; /* Light gray color for completed items */
+    text-decoration: line-through; /* Strikethrough for completed items */
+}
+
+/* Styling for the "Add" button */
+.addBtn {
+    background-color: rgb(179, 131, 226); /* Purple background color */
+    border: none;
+    color: #fff; /* White text color */
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+/* Hover effect for the "Add" button */
+.addBtn:hover {
+    background-color: rgb(148, 105, 176); /* Darker purple on hover */
+}
+
+/* Adjusting button size and padding */
+.addBtn {
+    width: 4rem; /* Button width */
+    padding: 1rem; /* Adjust padding as needed */
+    font-size: 1.5rem; /* Adjust font size as needed */
+}
+
+/* Styling for small text at the bottom */
+small {
+    color: #b5b5b5; /* Light gray text color */
+    margin-top: 3rem;
+    text-align: center;
+}
